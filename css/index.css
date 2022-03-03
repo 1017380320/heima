@@ -1,0 +1,53 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: radial-gradient(circle at center, rgb(112, 216, 143), rgb(101, 104, 241));
+}
+
+li {
+    list-style: none;
+}
+
+.headd {
+    overflow: hidden;
+    border: 3px solid #568bc7;
+    width: 100vw;
+    height: 50vw;
+}
+
+ul {
+    display: flex;
+}
+
+ul li {
+    display: flex;
+    flex: 1;
+    width: 30vw;
+    height: 50vw;
+    border-left: 1px solid #194b8d;
+    box-shadow: 0 0 6.6667vw #000;
+    transition: all 0.5s;
+}
+
+ul img {
+    display: block;
+    width: 100vw;
+    height: 50vw;
+}
+
+.headd ul:hover li {
+    width: 10vw;
+}
+
+.headd ul li:hover {
+    width: 70vw;
+}
